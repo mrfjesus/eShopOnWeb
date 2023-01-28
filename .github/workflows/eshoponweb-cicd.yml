@@ -3,7 +3,6 @@ name: eShopOnWeb Build and Test
 #Triggers (uncomment line below to use it)
 on: [push, workflow_dispatch]
 
- #Criei esta linha para fazer novo commit E outro commit again terceiro commit
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
@@ -16,7 +15,6 @@ env:
 
 jobs:
   #Build, test and publish .net web project in repository
-   #Criei esta linha para fazer novo commit E outro commit again
   buildandtest:
     runs-on: ubuntu-latest
     steps:
